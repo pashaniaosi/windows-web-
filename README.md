@@ -11,6 +11,6 @@
   如ssh服务和LAMP server，帮助我们安装好所需的环境
   ![software](http://images2015.cnblogs.com/blog/855959/201611/855959-20161115001841310-1770251240.png)
 2. 安装ssh服务和配置虚拟网络，实现虚拟机的远程连接，具体操作可以参考链接的内容，之后我们可以在cmd中测试虚拟机的ip的ping值来检验是否成功实现远程连接<br>
-cmd中的命令为:<br>
+`cmd中的命令为:`<br>
 `ping your ip-address`
 3. 
