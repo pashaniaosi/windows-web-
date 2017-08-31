@@ -12,5 +12,7 @@
 2. 安装ssh服务和配置虚拟网络，实现虚拟机的远程连接，具体操作可以参考链接的内容，之后我们可以在cmd中测试虚拟机的ip的ping值来检验是否成功实现远程连接<br><br>
 `cmd中的命令为: ping your ip-address`<br><br>
 如果ping没问题，那么远程连接成功了，这个时候我们就可以使用xshell或putty等软件连接并实现对系统的操作<br><br>
-3. 但是普通用户无法对服务器中的文件实现上传和下载，这样就会影响到我们的本地开发(这里可以使用winscap软件来便捷地实现对服务器文件的操作)，所以我们修改ssh的配置文件，允许使用root用户(首先要创建ubuntu的root用户)远程连接或是新建一个拥有管理员权限的用户<br>
+3. 但是普通用户无法对服务器中的文件实现上传和下载，这样就会影响到我们的本地开发(这里可以使用winscap软件来便捷地实现对服务器文件的操作)，所以我们修改ssh的配置文件，允许使用root用户(首先要创建ubuntu的root用户)远程连接或是新建一个拥有管理员权限的用户<br><br>
 这里我们实现一下第一种方法：修改`/etc/ssh/sshd_config`ssh的配置文件，将PermitRootLogin的值改成yes，因为为root账户设置了密码，所以还要更改PermitEmptyPasswords为no，这个时候给我们就可以使用root用户远程连接
+## 搭建php的开发环境
+* 这个时候我们只需在xshell或putty的命令行中安装配置php的开发环境了([参考链接](http://www.cnblogs.com/wenanry/archive/2012/11/13/2767779.html))
