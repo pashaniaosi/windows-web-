@@ -17,5 +17,6 @@
 ## 搭建php的开发环境
 * 这个时候我们只需在xshell或putty的命令行中安装配置php的开发环境([参考链接](http://www.cnblogs.com/wenanry/archive/2012/11/13/2767779.html))
 ## 实现本地开发
-1. 我们可以使用winscp软件(注意要有root权限)将服务器中web开发的根目录(apache服务器默认的DocumentRoot: `/var/www/html`，具体的配置可以自行修改)复制到本地进行开发，之后上传至服务器中，只需在本地的浏览器访问服务器的ip就可以查看自己的开发成果
+1. 我们可以使用winscp软件(注意要有root权限)将服务器中web开发的根目录(apache服务器默认的DocumentRoot: `/var/www/html`)，具体的配置可以自行修改)复制到本地进行开发，之后上传至服务器中，只需在本地的浏览器访问服务器的ip就可以查看自己的开发成果
 2. 推荐使用IDE实现上诉操作，如phpstorm中在`Tools->Deployment->Configuration`配置好远程连接的服务器、复制的文件夹路径以及本地的路径(同是root权限)，就可以方便的使用自带的`Download`和`Upload`功能实现下载和上传，便可以方便地进行本地开发，甚至可以用`Tools->Start SSH session`实现ssh连接(xshell和utty都省了)
+3. 现在我们就可以在windows环境下愉快地开发了，不用再为在windows下搭建php开发环境而烦恼(个人觉得在windows下搭建web开发环境很麻烦)
