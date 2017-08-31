@@ -8,5 +8,5 @@
 ## windows本地实现虚拟服务器的远程连接
 * 参考地址: [原文链接](http://www.linuxidc.com/Linux/2017-01/139530.htm)
 1. 由于vmware支持ubuntu系统的简易安装，如果选择的是简易安装则需要继续以下步骤，否则可以省略，因为非简易安装可以自行选择需要的软件，
-  如ssh服务和LAMP server
+  如ssh服务和LAMP server，帮助我们安装好所需的环境
   ![software](http://images2015.cnblogs.com/blog/855959/201611/855959-20161115001841310-1770251240.png)
